@@ -32,7 +32,7 @@ function deepestChild() {
  // var currElementChildren = null;
   var retVal = null;
 
-  while (currElement.children.length !=  0) {
+  while (currElement.children.length !==  0) {
        retVal = currElement;
        currElement = currElement.children[0];
   }
