@@ -33,9 +33,9 @@ function deepestChild() {
   var retVal = null;
 
   while (currElement.children.length !==  0) {
-       retVal = currElement;
        currElement = currElement.children[0];
+       retVal = currElement;
   }
-console.log(retVal);
+
   return retVal;
 }
