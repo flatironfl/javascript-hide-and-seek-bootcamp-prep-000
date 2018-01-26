@@ -36,6 +36,6 @@ function deepestChild() {
        retVal = currElement;
        currElement = currElement.children[0];
   }
-
+console.log(retVal);
   return retVal;
 }
